@@ -1,0 +1,6 @@
+1. Functions :
+    New game
+    check the answer
+    play again
+
+

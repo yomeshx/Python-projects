@@ -1,0 +1,17 @@
+1. search through a text file and ,
+    1.count all the words in to an dictionary called ""dic_word_co".
+        Try both ,
+            (I).if/else statements.
+            (II).get method
+    2.add all the individual word in to a list called "list_of_wds"
+    3.sort dic_word_co by value (max2min) - variable name:mx2mn_sorted_dic
+    4.sort the "list_of_wds"(mentioned in Q 2)
+    5.Find most common word in the text. must print the length of the word
+    6.print top 10 most common words and sort them by their value min to max , and max to min
+    7.if the programme ever go through a email address .take that and add it in to a list called emails
+2.conditions and rules
+    use try-except.
+    make a function that if "stop" is the input,break the loop and exit the programme.
+    use in 2 and 6 use both regular standard method and extracted one line method
+
+    

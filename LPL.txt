@@ -1,0 +1,15 @@
+day 1 
+
+galle vs jafna
+kandy vs colombo
+
+day 2
+
+jafna vs dambulla 
+kandy vs galle
+
+kandy = played 2 won 2
+Jafna = Played 2 won 2
+Dambulla = Played 1 won 0
+Galle = Played 2 won 0
+Colombo = Played 1 Won 0

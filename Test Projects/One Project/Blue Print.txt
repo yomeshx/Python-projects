@@ -1,0 +1,19 @@
+description
+-----------
+How this game works,
+    a cassino game that you can enter some amount of money and let you bet countless times
+-until either players deposit amount ran out or player chose to quit playing and withdraw
+-his/her prize.game has limited the range of 
+ if  choose 
+
+To get the deposit amount from the user
+
+1.Make a function
+    1.use a while loop
+    2.ask amount and store it in a variable
+    3.check if the amount is a number not a string
+    4.check if the amount is not 0
+    5.if the amount is valid . then break the while loop
+    6.return the amount
+    (so whole point of this function is to ask user for an input until
+    -he/she gives a valid amount and then returning that amount)

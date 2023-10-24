@@ -1,0 +1,47 @@
+Pin_list = [4560,4561,4562,4563,4564,4565,4566,4567,4568,4569,4570]
+
+# 3 chances to enter correct pin.
+
+OPtions
+    #loop Ask the service :
+        *1.Withdrawal
+        *2.Payment
+        *3.Check your Balance
+        *4.Return card
+    
+Program: ATM
+
+Target: Customer
+
+System:Windows
+
+UI: CMD
+
+Functional Requirements:
+	1.user must be able to enter Pin.
+	2.System should Validate inputs and give back expected results about the operations.
+	3.should run as a loop
+
+Testing method : simple test run :- expect how many hours as a message to appear
+
+Maintainer : itsyomeshyo@gmail.com
+
+inputs:
+	1.Pin
+	2.Feedbacks to exit permission Requests.
+    3.Feedbacks to Payment/Withdrawal conformation Requests.
+    4.Withdrawal/Pay amounts
+    5.Account numbers of the Payment receivers
+
+outputs:
+
+	1.Confirmation Notifications
+	2.Validation errors
+
+Validations:
+
+
+
+calculations
+	
+	1.real Balance = Balance - Withdrawal or Pay amount

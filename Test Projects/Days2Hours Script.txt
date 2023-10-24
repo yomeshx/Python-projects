@@ -1,0 +1,38 @@
+Program: Convert days to hours
+
+Target: Me
+
+System:Windows
+
+UI: CMD
+
+Functional Requirements:
+	1.user must be able to enter number of days.
+	2.System should calculate and print how many hours in days.
+	3.should run as a loop
+
+Testing method : simple test run :- expect how many hours as a message to appear
+
+Maintainer : itsyomeshyo@gmail.com
+
+inputs:
+	1.number of days
+	2.permission to terminate the loop
+
+outputs:
+
+	1.days in hours
+	2.Validation errors
+
+Validations:
+
+	main input use for the calculation must be..,
+
+	1.A number not a text.
+	2.should not be a negative number.
+	3.should not be 0
+
+calculations
+	
+	1. Main calculation
+		how many hours in entered days = user input * 24

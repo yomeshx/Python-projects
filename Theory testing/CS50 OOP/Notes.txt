@@ -1,0 +1,14 @@
+You can create a class using Class keyword but anytime use the class you are creating an object
+
+# __init__ is a instance method. 
+    you define this method when you want to initialize contents of a object from a class.
+    * these __init__ function is called automatically by python for you
+# Self give you access to the current object you just created
+
+
+#** When you should create a class in your code ? 
+    when you want to represent a real world or fantasy world entity . like a student,car
+
+#classes make big coding projects well organized. 
+    for example imagine there is a entity called student , we can put everything including variables,functions related to Student in to a Student class
+    -instead of bunch of functions everywhere making the code untidy

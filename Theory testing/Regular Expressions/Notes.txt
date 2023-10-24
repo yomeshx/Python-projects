@@ -1,0 +1,32 @@
+#Regular expressions are old style programming language itself.
+#Regular expressions are used to detect patterns.ex: email addresses.
+#in order to use regular expression in python you should import a library called 're' .
+#as soon as it find the result no code lines after that statement won't be executed !!!(So code bellow wont be run properly you have to comment out to test both method results)
+#instead of using 'parameter.function()'(ex: line.find("Bla..blaa..")) as we normally do in python,
+- in regular expressions parameter comes inside the function after the thing you are looking for (ex: re.search("Hello",line))
+
+# '.' = any character except a newline
+# '\S' = Non white space characters
+# '\s' = whitespace character
+# '\w' = word character....as well as numbers and the underscore
+# '\W' = not a word character
+# '\d' = decimal character
+# '\D' = non decimal character
+# '+' = one or more repetitions
+# '*' = Zero or more repetitions
+# '?' = Zero or 1 repetitions
+# {m} = m repetitions (specify how many repetitions)
+# {m,n} m-n repetitions (specify repetition range)
+# '\' = escape or if you want to use characters in regular expressions as just a string   (except \s and \S) 
+# '^' is for starts with  (match the start of the string)
+# '$' is for ends with (match the end of the string or just before the newline at the end of the string)
+# '[^ ]' = '\S' can use same thing to say "non whitespace characters"    **** Look Email-extract-Test-project
+# '[]' = set of characters
+# '[a-zA-Z0-9_] = range of characters to z ,A to Z, 0 to 9 and underscore
+    #[A-Z] or [a-z] can be replaced with '\w' , '\w' = word character
+# '[^@]' = any character without that is not '@' sign
+# (something|something) = or ex:- (.com|.edu|.net|.lk) = .com or .edu or .net or .lk
+#You basically can separately define what things comes before the part you want to scrap by using "()"  **** Look ex -7
+# # '[B,A,C,e]+' = one or more character or characters that included in the list  **** Look ex -6 and -5
+# Using r before the string tells it's a raw string. it prevents escape character('\') accidentally recognize as a newline character(\n)
+    Ex: re.search(r".+@.+\.edu",email)

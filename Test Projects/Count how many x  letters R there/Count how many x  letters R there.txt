@@ -1,0 +1,5 @@
+Python challenge ___
+
+Text = abbaaCCaaajjjjNNNmmmAAAAAaaaaddddadadadaad
+
+#count and print the name and ammount of individual letters in the 'Text' varieable
