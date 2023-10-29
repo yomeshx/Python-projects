@@ -1,2 +1,4 @@
-print("hello world")
-print("I am alive")
+x = 1
+while x<6 :
+    print ("Hello World")
+    a
